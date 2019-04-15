@@ -25,4 +25,7 @@ def printer(attendees)
     badge_array.each do |badge|
       puts badge
   end
+  room_array.each do |room|
+    puts room
+end
 end
