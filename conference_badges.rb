@@ -19,7 +19,11 @@ def assign_rooms(attendees)
   return room_assignments
 end
   
-def 
+def printer(attendees)
+  attendees.each do |name|
+    puts room_assignments
+  end
+end
   
   
   
